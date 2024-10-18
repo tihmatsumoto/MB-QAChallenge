@@ -1,0 +1,13 @@
+{
+  "data": {
+    "state": "New South Wales",
+    "postalCode": "2007",
+    "firstName": "John",
+    "lastName": "Doe",
+    "mobilePhone": "+61412345678",
+    "incorrectEmail": "johndoe.com",
+    "emailErrorMessage": "Please enter a valid email address.",
+    "sortingType": "Price: High to Low", 
+    "purposeType": "Private"
+  }
+}
