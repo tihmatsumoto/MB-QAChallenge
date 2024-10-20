@@ -30,7 +30,7 @@ test.describe('Enquire Now Flow - Negative test case', () => {
     //Select PreOwned vehicle from filter widget
     await exploreVehiclesPage.selectPreOwnedTab()
     //This redirect requires cookies to be accepted again
-    await homePage.acceptCookies()
+    // await homePage.acceptCookies()
     //Select vehicle color filter
     await exploreVehiclesPage.selectGreenColorFilter()
     //Sort by price, so we can click Most Expensive Vehicle
