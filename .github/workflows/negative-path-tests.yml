@@ -9,29 +9,30 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        working-directory: ./Task-2
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
-        working-directory: ./Task-2
         with:
           node-version: '18'
 
+      - name: Change to Task-2 folder
+        run: cd Task-2
+
       - name: Install dependencies
         run: npm install
-        working-directory: ./Task-2
+        working-directory: Task-2
 
       - name: Install browsers
         run: npx playwright install --with-deps
-        working-directory: ./Task-2
+        working-directory: Task-2
 
       - name: Run Playwright Tests
         run: npm run test
-        working-directory: ./Task-2
+        working-directory: Task-2
 
       - name: Upload Playwright Report
         if: always()
-        working-directory: ./Task-2
+        working-directory: Task-2
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
