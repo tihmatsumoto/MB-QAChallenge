@@ -2,11 +2,11 @@
 
 This repository contains the solution for the challenge provided by Mercedes-Benz.io for task 1, 2 and 3 of the QA Engineer challenge.
 
-## Task_1
+## Task 1
 
 Task 1 is available as a PDF file named: Task 1 - Manual Testing.pdf. It contains all bugs identified for two scenarios provided.
 
-## Task_2
+## Task 2
 
 Task 2 is available as a folder with all code for Automated Testing task using **Playwright** framework, **Typescript** and **Page Object Model (POM)**.
 
@@ -57,3 +57,7 @@ cd Task-2
 ```
   npm run test:safari
 ```
+
+## Task 3
+This task is available in .github/workflows/negative-path-tests.yml. Tried to keep it simple, and straightforward. 
+If one improvement could be done, would be to have it be setup as a link, so user can click and be redirected to the report in github pages or something around that behavior to make it easier to see final results
